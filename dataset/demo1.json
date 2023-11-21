@@ -1,0 +1,19 @@
+{
+	"name": "demo1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "enam.xls",
+				"container": "sales"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
